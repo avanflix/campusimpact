@@ -56,10 +56,10 @@ export default function Hero() {
             <span className="stat-label">Power Days</span>
           </div>
           <div className="stat-divider" />
-          <div className="hero-stat">
+          {/* <div className="hero-stat">
             <span className="stat-num">₹9.5K</span>
             <span className="stat-label">Prize Pool</span>
-          </div>
+          </div> */}
           <div className="stat-divider" />
           <div className="hero-stat">
             <span className="stat-num">∞</span>

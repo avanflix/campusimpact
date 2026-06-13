@@ -46,7 +46,7 @@ export default function Pricing() {
             <ul className="price-features">
               {[
                 "Team of exactly 4 students",
-                "Compete for ₹9,500 prize pool",
+                // "Compete for ₹9,500 prize pool",
                 "Professional judging panel",
                 "Certificate for every member",
                 "Reel screening on big stage",
