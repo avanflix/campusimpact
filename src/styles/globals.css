@@ -1,4 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Syne:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700;800&display=swap');
+
+body,
+.hero h1,
+.hero-desc,
+.section-title,
+.nav-logo,
+.track-card h3,
+.comp-section h2 {
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.hero h1 {
+  font-weight: 800;
+  letter-spacing: -0.06em;
+  line-height: 0.95;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+font-family: 'Manrope', sans-serif;
+background: var(--bone);
+color: var(--ink);
+overflow-x: hidden;
+}
+
+.hero h1,
+.section-title,
+.comp-section h2,
+.cta-section h2,
+.nav-logo {
+font-family: 'Syne', sans-serif;
+}
+
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -15,7 +51,10 @@
 }
 
 html { scroll-behavior: smooth; }
-body { font-family: 'Outfit', sans-serif; background: var(--bone); color: var(--ink); overflow-x: hidden; }
+body {
+  font-family: 'Manrope', sans-serif;
+}
+/* body { font-family: 'Outfit', sans-serif; background: var(--bone); color: var(--ink); overflow-x: hidden; } */
 
 /* NAV */
 nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; background: rgba(253,250,246,.88); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }

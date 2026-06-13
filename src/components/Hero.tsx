@@ -55,7 +55,7 @@ export default function Hero() {
             <span className="stat-num">2</span>
             <span className="stat-label">Power Days</span>
           </div>
-          <div className="stat-divider" />
+          {/* <div className="stat-divider" /> */}
           {/* <div className="hero-stat">
             <span className="stat-num">₹9.5K</span>
             <span className="stat-label">Prize Pool</span>
